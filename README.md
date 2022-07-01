@@ -38,8 +38,8 @@ Json,
 
 ## Personal & Profesional information (CVs)
 
-[mybackground](https://github.com/escrimaglia/myrepository/tree/main/Mybackground)
+[mybackground](https://github.com/escrimaglia/myrepo/tree/main/Mybackground)
 
 ## Code Examples
 
-[Network Programmability](https://github.com/escrimaglia/myrepository/tree/main/Network%20Programmability)
+[Network Programmability](https://github.com/escrimaglia/myrepo/tree/main/Network%20Programmability)
