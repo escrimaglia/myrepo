@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import *
+from ApiApp.models import *
+from WebApp.models import *
 
 class ViewDevices(admin.ModelAdmin):
     list_display = ("name","memory","vendor","family")
@@ -13,6 +14,11 @@ class ViewUsuarios(admin.ModelAdmin):
     list_display = ("usuario", "password")
     search_fields = ("usuario",)
 
+class ViewTokens(admin.ModelAdmin):
+    list_display = ("token", "name")
+    search_fields = ("name",)
+
 admin.site.register(Devices, ViewDevices)
 admin.site.register(Interfaces, ViewInterfaces)
 admin.site.register(Usuarios, ViewUsuarios)
+admin.site.register(Tokens, ViewTokens)
