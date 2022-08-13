@@ -20,7 +20,7 @@ POST
 &nbsp;&nbsp;Body:  
 &nbsp;&nbsp;{  
 &nbsp;&nbsp;&nbsp;&nbsp;"type": "Giga" o "Fast",  
-&nbsp;&nbsp;&nbsp;&nbsp;"slot": 0 o 1,  
+&nbsp;&nbsp;&nbsp;&nbsp;"slot": 0 o 9,  
 &nbsp;&nbsp;&nbsp;&nbsp;"port": 0 o 1,  
 &nbsp;&nbsp;&nbsp;&nbsp;"ipv4_address": "X.X.X.X" o "none",  
 &nbsp;&nbsp;&nbsp;&nbsp;"status": "u" o "d"  
@@ -29,7 +29,7 @@ PATCH
 &nbsp;&nbsp;Body:  
 &nbsp;&nbsp;{  
 &nbsp;&nbsp;&nbsp;&nbsp;"type": "Giga" o "Fast",  
-&nbsp;&nbsp;&nbsp;&nbsp;"slot": 0 o 1,  
+&nbsp;&nbsp;&nbsp;&nbsp;"slot": 0 o 9,  
 &nbsp;&nbsp;&nbsp;&nbsp;"port": 0 o 1,  
 &nbsp;&nbsp;&nbsp;&nbsp;"ipv4_address": "X.X.X.X" o "none",  
 &nbsp;&nbsp;&nbsp;&nbsp;"status": "u" o "d"  
@@ -38,7 +38,7 @@ DELETE
 &nbsp;&nbsp;Body:  
 &nbsp;&nbsp;{  
 &nbsp;&nbsp;&nbsp;&nbsp;"type": "Giga" o "Fast",  
-&nbsp;&nbsp;&nbsp;&nbsp;"slot": 0 o 1,  
+&nbsp;&nbsp;&nbsp;&nbsp;"slot": 0 o 9,  
 &nbsp;&nbsp;&nbsp;&nbsp;"port": 0 o 1,  
 &nbsp;&nbsp;}  
 
@@ -65,5 +65,32 @@ SQLite
 Devices  
 Interfaces  
 Usuarios  
+Tokens  
+
+## Adicionales
+
+[Config files](https://github.com/OctupusCloud/ApiServer/tree/main/Adicionales)
+
+### Gunicorn Socket
+
+/etc/system/systemd/gunicorn.socket
+
+Configuración file Socket Nginx to Gunicorn
+
+### Gunicorn HTTP WSGI Server
+
+/etc/system/systemd/gunicorn.service
+
+Configuración file Gunicorn Service
+
+### Nginx Web Server
+
+/etc/nginx/sites-enabled/nginx.conf (puede ser renombrado)
+
+Configuración file Nginx
+
+### Configuración Nginx y Gunicorn example
+
+<https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-20-04-es>
 
 ### Ed Scrimaglia, Año 2022
