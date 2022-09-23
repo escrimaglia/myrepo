@@ -35,6 +35,7 @@ Docker,
 Django,
 Yaml,
 Json,
+Azure Cloud
 
 ## Personal & Profesional information (CVs)
 
