@@ -1,0 +1,12 @@
+nombre: None
+familia: None
+memoria: 2024
+interfaces:
+  - nombre: None
+    tipo: gigabit
+    slot: 1
+    port: 1
+  - nombre: None
+    tipo: gigabit
+    slot: 1
+    port: 2
