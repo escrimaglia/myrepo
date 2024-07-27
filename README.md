@@ -35,7 +35,9 @@ Docker,
 Django,
 Yaml,
 Json,
-Azure Cloud
+Azure Cloud,
+Pydantic,
+FastApi
 
 ## Personal & Profesional information (CVs)
 
