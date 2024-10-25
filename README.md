@@ -42,4 +42,4 @@ RabbitMQ
 
 ## Code Examples
 
-[Network Automation](https://github.com/escrimaglia/myrepo/tree/main/Network%20Programmability)
+[Network Automation](https://github.com/escrimaglia/myrepo/tree/main/Code)
