@@ -34,7 +34,7 @@ Json,
 Azure Cloud,
 Pydantic,
 FastApi,
-Message Brokers
+RabbitMQ
 
 ## Personal & Profesional information (CVs)
 
