@@ -33,7 +33,8 @@ Yaml,
 Json,
 Azure Cloud,
 Pydantic,
-FastApi
+FastApi,
+Message Brokers
 
 ## Personal & Profesional information (CVs)
 
